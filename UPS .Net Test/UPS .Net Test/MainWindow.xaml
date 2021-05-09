@@ -1,0 +1,22 @@
+﻿<Window x:Class="UPS.Net_Test.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UPS.Net_Test"
+        mc:Ignorable="d"
+        Title="Employee Details" Height="450" Width="800"
+        Loaded="Window_Loaded">
+    <Grid>
+        <Button Name="btn_Edit" Content="Edit Employee Details" HorizontalAlignment="Left" Margin="522,40,0,0" VerticalAlignment="Top" Height="26" Width="133" Click="btn_Edit_Click"/>
+        <Button Name="btn_Export" Content="Export" HorizontalAlignment="Left" Margin="38,373,0,0" VerticalAlignment="Top" Height="26" Width="60" Click="btn_Export_Click"/>
+        <TextBox Name="tbxSearch" HorizontalAlignment="Left" Height="26" Margin="38,40,0,0" TextWrapping="Wrap" TextAlignment="Center" VerticalContentAlignment="Center" Text="" VerticalAlignment="Top" Width="120" TextChanged="tbxSearch_TextChanged"/>
+        <ListBox Name="lbx_Employees" HorizontalAlignment="Left" Height="270" Margin="38,100,0,0" VerticalAlignment="Top" Width="467" SelectionChanged="lbx_Employees_SelectionChanged"/>
+        <TextBox Name="tbxName" HorizontalAlignment="Left" Height="30" Margin="521,100,0,0" VerticalContentAlignment="Center" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="160"/>
+        <TextBox Name="tbxGender" HorizontalAlignment="Left" Height="30" Margin="522,180,0,0" VerticalContentAlignment="Center" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="130"/>
+        <TextBox Name="tbxStatus" HorizontalAlignment="Left" Height="30" Margin="522,260,0,0" VerticalContentAlignment="Center" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="130"/>
+        <TextBox Name="tbxEmail" HorizontalAlignment="Left" Height="30" Margin="522,340,0,0" VerticalContentAlignment="Center" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="260"/>
+        <Label Content="Search" VerticalContentAlignment="Top" HorizontalAlignment="Left" Margin="38,10,0,0" VerticalAlignment="Top" Width="69" Height="30"/>
+
+    </Grid>
+</Window>
